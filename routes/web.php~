@@ -1,0 +1,104 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+ Route::get('/en', 'HomeController@homeEn');
+ 
+ 
+ 
+ Route::get('admin/doctors/filter', 'DoctorController@filter')->name('doctors.filter');
+Route::resource('admin/doctors','DoctorController');
+
+
+Route::get('/', function () {
+    return view('welcome');
+});
+ 
+
+  Auth::routes();
+  
+//Route::group(['prefix' => 'admin'], function () {
+//  Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('admin.login');
+//  Route::post('/login', 'AdminAuth\LoginController@login');
+//  Route::post('/logout', 'AdminAuth\LoginController@logout')->name('admin.logout');
+//
+//  Route::get('/register', 'AdminAuth\RegisterController@showRegistrationForm')->name('admin.register');
+//  Route::post('/register', 'AdminAuth\RegisterController@register');
+//
+//  Route::post('/password/email', 'AdminAuth\ForgotPasswordController@sendResetLinkEmail')->name('admin.password.request');
+//  Route::post('/password/reset', 'AdminAuth\ResetPasswordController@reset')->name('admin.password.email');
+//  Route::get('/password/reset', 'AdminAuth\ForgotPasswordController@showLinkRequestForm')->name('admin.password.reset');
+//  Route::get('/password/reset/{token}', 'AdminAuth\ResetPasswordController@showResetForm'); 
+//
+//});
+
+Route::group(['prefix' => 'doctor'], function () {
+  Route::get('/login', 'DoctorAuth\LoginController@showLoginForm')->name('doctor.login');
+  Route::post('/login', 'DoctorAuth\LoginController@login');
+  Route::post('/logout', 'DoctorAuth\LoginController@logout')->name('doctor.logout');
+
+  Route::get('/register', 'DoctorAuth\RegisterController@showRegistrationForm')->name('doctor.register');
+  Route::post('/register', 'DoctorAuth\RegisterController@register');
+
+  Route::post('/password/email', 'DoctorAuth\ForgotPasswordController@sendResetLinkEmail')->name('doctor.password.request');
+  Route::post('/password/reset', 'DoctorAuth\ResetPasswordController@reset')->name('doctor.password.email');
+  Route::get('/password/reset', 'DoctorAuth\ForgotPasswordController@showLinkRequestForm')->name('doctor.password.reset');
+  Route::get('/password/reset/{token}', 'DoctorAuth\ResetPasswordController@showResetForm');
+});
+
+Route::group(['prefix' => 'patient'], function () {
+  Route::get('/login', 'PatientAuth\LoginController@showLoginForm')->name('patient.login');
+  Route::post('/login', 'PatientAuth\LoginController@login');
+  Route::post('/logout', 'PatientAuth\LoginController@logout')->name('patient.logout');
+
+  Route::get('/register', 'PatientAuth\RegisterController@showRegistrationForm')->name('patient.register');
+  Route::post('/register', 'PatientAuth\RegisterController@register');
+
+  Route::post('/password/email', 'PatientAuth\ForgotPasswordController@sendResetLinkEmail')->name('patient.password.request');
+  Route::post('/password/reset', 'PatientAuth\ResetPasswordController@reset')->name('patient.password.email');
+  Route::get('/password/reset', 'PatientAuth\ForgotPasswordController@showLinkRequestForm')->name('patient.password.reset');
+  Route::get('/password/reset/{token}', 'PatientAuth\ResetPasswordController@showResetForm');
+});
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Auth::routes();
+
+//Route::get('/home', 'HomeController@index');
+
+Route::resource('admin/cities', 'cityController');
+
+Route::resource('admin/regions', 'regionController');
+
+
+
+Route::resource('locations', 'locationsController');
+
+Route::resource('roles', 'roleController');
+
+Route::resource('routes', 'routeController');
+
+Route::resource('specialties', 'specialtyController');
+
+Route::resource('employers', 'employerController');
+
+Route::resource('insuranceCompanies', 'insuranceCompanyController');
+
+Route::get('/firebase/{id}','FirebaseController@index');
+
+Route::get('/create-firebase/','FirebaseController@create');
+
+Route::get('/filter-firebase/{id}','FirebaseController@filter');
+
+

@@ -1,0 +1,5351 @@
+@font-face {
+    font-family: relway-black;
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: relway-bold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: relway-light;
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: relway-regular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+body{
+    font-family: relway-regular;
+}
+.background-body {
+    width: 100%;
+    height: 790px;
+    background-image: url(../img/body-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.menu-carousel-background #patient-carousel textarea:focus{
+	outline: none;
+	border:none;
+}
+
+
+.header1{
+    height: 90px;
+    background: #fff;
+    margin: 0px;
+    border: none;
+    z-index: 999;
+}
+
+.header1 .header-toggle-btn{
+    background: rgb(0, 186, 186);
+    color: #fff;
+    margin-top: 25px;
+}
+.header1 .header-toggle-btn:focus{
+    background: rgb(0, 186, 186);
+}
+.header1 .header-toggle-btn .icon-bar{
+	background-color: #fff;
+}
+
+
+.header1 .main-ul{
+    margin: 0px; 
+    padding: 0px;
+    margin-top: 20px;
+}
+.main-ul .pages-links li a{
+    color: #000;
+    font-size: 18px;
+}
+.main-ul .pages-links li:hover a{
+    background: none;
+    color: rgb(245, 92, 91);
+}
+.main-ul .pages-links > .active > a,
+ .main-ul .pages-links > .active > a:hover,
+  .main-ul .pages-links > .active > a:focus{
+    color: rgb(245, 92, 91);
+    background: none;
+}
+.main-ul .register-links{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.main-ul .register-links li {
+    padding: 0px;
+    margin-right: 5px;
+}
+.main-ul .register-links li a{
+    color: rgb(66, 193, 195);
+    padding: 0px;
+    font-size: 15px;
+}
+.main-ul .register-links li:hover a{
+    color: rgb(66, 193, 195);
+    padding: 0px;
+    font-size: 15px;
+}
+.main-ul .register-links li a .black{
+    color: #000;
+}
+.main-ul .social-links{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.main-ul .social-links li{
+    margin-right: 10px;
+}
+
+.main-ul .social-links li a{
+    padding: 0px;
+}
+
+.main-ul .languages li a{
+    color: rgb(245, 92, 91); 
+}
+
+
+
+.menu-background{
+    background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 20px 40px 20px 40px;
+    margin-top: -52.6%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+    
+}
+.bold{
+    font-family: relway-bold;
+}
+
+.menu-background .book{
+    font-size: 30px;
+    font-family: relway-light;
+}
+.menu-background .now{
+    font-size: 50px;
+    margin-bottom: 64%;
+}
+.menu-background .login-btn,.menu-background .register-btn{
+    background: rgb(0, 182, 185);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.menu-background .login-btn a{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.menu-background .register-btn a{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu-background .register-now{
+    font-size: 50px;
+    margin-bottom: 77%;
+}
+.footer1{
+    background: #fff;
+    color: rgb(119, 118, 117);
+    font-family: relway-regular;
+    font-size: 16px; 
+    height: 69px;
+}
+.footer1 .copyright{
+    float: left;
+    margin-top: 30px;
+}
+.footer1 .developedby{
+    float: right;
+    margin-top: 30px;
+}
+/*doctor registeration*/
+
+.doctor-menu-background{
+    background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 20px 40px 20px 40px;
+    margin-top: -67.5%;
+    margin-right: 0px;
+    margin-left: 0px;
+color: #fff;
+}
+.doctor-menu-background .register-doctor{
+    font-size: 30px;
+}
+
+.doctor-menu-background .doctor-form .first-col {
+    width: 47%;
+    float: left;
+}
+.doctor-menu-background .doctor-form .second-col {
+    width: 47%;
+    float: right;
+}
+.doctor-menu-background .doctor-form .row{
+    margin-bottom: 20px;
+}
+.doctor-menu-background .doctor-form input{
+    padding:15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;    
+    color: rgb(0, 182, 185);
+    font-size: 24px;
+}
+.doctor-menu-background .doctor-form input:focus{
+    outline: none;
+    border: none;
+}
+
+.doctor-menu-background .doctor-form input[type ="radio"]{
+     -webkit-appearance:none;
+      -moz-appearance:none;
+    width:16px;
+    padding: 10px;
+    height:16px;
+   border:3px solid rgb(0, 182, 185);
+    border-radius:50%;
+    outline:none;
+    -moz-width:16px;
+    -moz-padding: 10px;
+    -moz-height:16px;
+    -moz-border-radius:50%;
+    -moz-outline:none;
+    
+}
+.doctor-menu-background .doctor-form input[type='radio']:before {
+    content:'';
+    display:block;
+    width:60%;
+    height:60%;
+    margin: 20% auto;    
+    border-radius:50%;    
+    -moz-content:'';
+    -moz-display:block;
+    -moz-width:60%;
+    -moz-height:60%;
+    -moz-margin: 20% auto;    
+    -moz-border-radius:50%;  
+}
+.doctor-menu-background .doctor-form input[type='radio']:hover {
+    box-shadow:0 0 0px 5px #fff inset;
+    -moz-box-shadow:0 0 0px 5px #fff inset;
+}
+.doctor-menu-background .doctor-form input[type='radio']:checked {
+      background-color: rgb(255, 52, 52);
+       -moz-background-color: rgb(255, 52, 52);
+    box-shadow: 0px 0px 0px 5px #fff inset;
+     -moz-box-shadow: 0px 0px 0px 5px #fff inset;
+}
+.doctor-menu-background .doctor-form  .radio-label{
+    font-size: 24px;
+    padding: 15px;
+        font-family: relway-light;
+    padding-left: 5px;
+}
+
+.doctor-menu-background .doctor-form .second-col select{
+width: 100%;
+color: rgb(150, 150, 150);
+padding: 15px;
+font-size: 24px;
+border-radius: 10px;
+border: none;
+   background: url('../img/arrow-down.png') no-repeat #fff;
+    background-position: 95% 50%;
+    background-size: 20px;
+    -moz-appearance: none;
+    -webkit-appearance:none ;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.doctor-menu-background .doctor-form .second-col select>option{
+margin-top: 5px;
+padding: 10px;
+}
+.doctor-menu-background .doctor-form .second-col select:focus{
+    outline: none;
+}
+
+
+.doctor-menu-background .doctor-form .second-col .submit{
+    width: 70%;
+    color: #fff;
+    background: #00b5b8;
+    float: right;
+        margin-right: -15px;
+    margin-top: 10px;
+    z-index: 1;
+
+
+}
+.doctor-menu-background .doctor-form .second-col .credit-details{
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    background: #00b5b8;
+    float: right;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    font-family: relway-regular;
+    letter-spacing: 1.5px;
+}
+.doctor-menu-background .doctor-form .second-col  .browse{
+    padding:15px;
+    width: 100%;
+    border: none;
+    background: #00b5b8;
+    border-radius: 10px;    
+    color: #fff;
+    font-size: 24px; 
+}
+
+.doctor-menu-background .doctor-form .second-col  .upload-info h4{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;    
+    color: #fff;
+    font-size: 16px; 
+}
+.doctor-menu-background .doctor-form img#close {
+    position: relative;
+    right: 0;
+    left: 63.5%;
+    width: 35px;
+    top: 122px;
+    cursor: pointer;
+    z-index: 999999;
+}
+.doctor-menu-background .doctor-form img#close1 {
+    position: relative;
+    right: 0;
+    left: 59.5%;
+    width: 35px;
+    top: 107px;
+    cursor: pointer;
+    z-index: 999999;
+}
+.doctor-menu-background .doctor-form img#close2 {
+    position: relative;
+    right: 0;
+    left: 64.5%;
+    width: 35px;
+    top: 52px;
+    cursor: pointer;
+    z-index: 9999999;
+}
+.doctor-menu-background .doctor-form #abc {
+width: 100%;
+height: 100%;
+opacity:.95;
+top: 0%;
+left: 0%;
+display:none;
+background-color:rgba(55, 55, 55, 0.9);
+position:fixed;
+overflow:auto;
+z-index: 999;
+}
+.doctor-menu-background .doctor-form #abc #popupContact .container {
+    top: 18%;
+    left: 20%;
+    position: absolute;
+    z-index: 9999;
+}
+
+#abc .visa {
+display:none;
+}
+ 
+#abc .visa + label {
+    background-image: url(../img/visa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 67px;
+    width: 36%;
+    float: right;
+    margin: 5px 12px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+}
+#abc .visa:checked + label
+{
+
+border: 3px solid green;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+#abc .master {
+display:none;
+}
+ 
+#abc .master + label {
+    background-image: url(../img/master.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 67px;
+    width: 36%;
+    margin: 5px 12px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+}
+#abc .master:checked + label
+{
+border: 3px solid green;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+.doctor-menu-background .doctor-form #xyz {
+width: 100%;
+height: 100%;
+opacity:.95;
+top: 0%;
+left: 0%;
+display:none;
+background-color:rgba(55, 55, 55, 0.9);
+position:fixed;
+overflow:auto;
+z-index: 99999;
+}
+
+.doctor-menu-background .doctor-form #xyz #popupContact .container{
+        top: 10%;
+    left: 20%;
+    position: absolute;
+}
+
+#xyz .credit-form label  {
+color: #828282;
+}
+
+.doctor-menu-background .doctor-form #xyz #popupContact .container input{
+         padding: 5px; 
+    width: 100%;
+   
+    border-radius: 5px;
+    color: rgb(0, 182, 185);
+    font-size: 15px;
+}
+
+
+#abc .credit-form label  {
+color: #828282;
+}
+.cc-img {
+    width: 50px;
+    height: 50px;
+}
+.doctor-menu-background .doctor-form #def {
+width: 100%;
+height: 100%;
+opacity:.95;
+top: 0%;
+left: 0%;
+display:none;
+background-color:rgba(55, 55, 55, 0.9);
+position:fixed;
+overflow:auto;
+z-index: 99999;
+}
+/*.doctor-menu-background .doctor-form #def div#popupContact {
+position:absolute;
+left:50%;
+top:25%;
+margin-left:-202px;
+font-family:hi;
+}*/
+
+/*.doctor-menu-background .doctor-form #abc .credit-card {
+   width: 360px;
+    height: 350px;
+    position: relative;
+    margin: 60px auto 0;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}*/
+
+.doctor-menu-background .doctor-form #def .terms-window {
+    max-width: 560px;
+    max-height: 600px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    top: 40px;
+    background-color: #fff;
+    color: #ccc;
+    position: relative;
+    overflow: auto;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+.doctor-menu-background .doctor-form #def .form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+.doctor-menu-background .doctor-form #def .form-header .title {
+    font-size: 18px;
+    margin: 0;
+    color: #5e6977;
+}
+
+/*.doctor-menu-background .doctor-form #abc .form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}*/
+/*.doctor-menu-background .doctor-form #abc .form-header .title {
+    font-size: 18px;
+    margin: 0;
+    color: #5e6977;
+}*/
+/*.doctor-menu-background .doctor-form #abc .card-number,
+.doctor-menu-background .doctor-form #abc .cvv-input input,
+.doctor-menu-background .doctor-form #abc .month select,
+.doctor-menu-background .doctor-form #abc .year select {
+        font-size: 14px;
+    font-weight: 100;
+    border: 1px solid rgb(0, 182, 185);
+    line-height: 14px;
+    color: #000;
+        padding: 10px;
+}
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .7;
+    color: #86939e;
+}
+ .card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: url('../img/arrow-down.png') no-repeat;
+    background-position: 85% 50%;
+    background-size: 20px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: right;
+}
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: left;
+    margin-bottom: 20px;
+}
+ 
+.cvv-details p {
+    margin-top: 6px;
+}
+*/
+
+ 
+.proceed-btn {
+     cursor: pointer;
+    margin-bottom: 10px;
+    background: rgb(0, 182, 185);
+    width: 80px;
+    float: right;
+     font-size: 16px;
+    border-color: transparent;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px 10px;
+
+    background: rgb(0, 182, 185);
+}
+ 
+
+.proceed-btn a {
+    text-decoration: none;
+     color: #fff;
+}
+ 
+
+
+/*.doctor-menu-background .doctor-form #abc .form-body {
+    max-height: 340px;
+    padding: 30px 30px 20px;
+}*/
+.doctor-menu-background .doctor-form #def .form-body {
+    max-height: 500px;
+    padding: 30px 30px 20px;
+     overflow: auto;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check{
+        display: inline-flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 50%;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check .agree{
+    width: 12%;
+    color: rgb(0, 182, 185);
+}
+
+.doctor-menu-background .doctor-form .second-col .agree-check .terms-link{
+color: rgb(0, 182, 185);
+cursor: pointer;
+}
+
+/*end doctor registeration*/
+.patient-menu-background{
+    background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 20px 40px 20px 40px;
+    margin-top: -46.8%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+.patient-menu-background .register-patient{
+    font-size: 30px;
+}
+
+.patient-menu-background .patient-form .first-col {
+    width: 47%;
+    float: left;
+}
+.patient-menu-background .patient-form .second-col {
+    width: 47%;
+    float: right;
+}
+.patient-menu-background .patient-form .row{
+    margin-bottom: 20px;
+}
+.patient-menu-background .patient-form input{
+    padding:15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;    
+    color: rgb(0, 182, 185);
+    font-size: 24px;
+}
+.patient-menu-background .patient-form input:focus{
+    outline: none;
+    border: none;
+}
+
+.patient-menu-background .patient-form input[type ="radio"]{
+     -webkit-appearance:none; 
+     -moz-appearance:none;
+    width:16px;
+    padding: 10px;
+    height:16px;
+    border:3px solid rgb(0, 182, 185);
+    border-radius:50%;
+    outline:none;
+    
+}
+.patient-menu-background .patient-form input[type='radio']:before {
+    content:'';
+    display:block;
+    width:60%;
+    height:60%;
+    margin: 20% auto;    
+    border-radius:50%;    
+}
+.patient-menu-background .patient-form input[type='radio']:hover {
+   box-shadow:0 0 0px 5px #fff inset;
+    -moz-box-shadow:0 0 0px 5px #fff inset;
+}
+.patient-menu-background .patient-form input[type='radio']:checked {
+        background-color: rgb(255, 52, 52);
+    box-shadow: 0px 0px 0px 5px #fff inset;
+}
+.patient-menu-background .patient-form  .radio-label{
+    font-size: 24px;
+    padding: 15px;
+        font-family: relway-light;
+    padding-left: 5px;
+}
+
+.patient-menu-background .patient-form .second-col select{
+width: 100%;
+color: rgb(150, 150, 150);
+padding: 15px;
+font-size: 28px;
+border-radius: 10px;
+border: none;
+   background: url('../img/arrow-down.png') no-repeat #fff;
+    background-position: 95% 50%;
+    background-size: 20px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.patient-menu-background .patient-form .second-col select>option{
+margin-top: 5px;
+padding: 10px;
+}
+.patient-menu-background .patient-form .second-col select:focus{
+    outline: none;
+}
+.patient-menu-background .patient-form .second-col .add-address{
+    text-align: left;
+    font-size: 24px;
+        margin-top: -10px;
+    text-decoration: underline;
+    font-family: relway-light;
+    margin-bottom: -20px;
+}
+.patient-menu-background .patient-form .second-col .add-address i.fa-plus{
+    width: 16px;
+    font-size: 12px;
+}
+
+.patient-menu-background .patient-form .second-col .hidden-address{
+    display: none;
+    z-index: 99999;
+    width: 100%;
+    position: absolute;
+}
+.patient-menu-background .patient-form .second-col .submit{
+    width: 30%;
+    color: #fff;
+    background: #00b5b8;
+    float: right;
+    margin-top: 50px;
+    z-index: 1;
+    
+}
+/*
+.selectdiv {
+  position: relative;
+  
+  
+  float: left;
+  min-width: 200px;
+  margin: 50px 33%;
+}
+
+.selectdiv:after {
+    content: '\f078';
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 6px;
+    height: 34px;
+    padding: 15px 0px 0px 8px;
+    border-left: 1px solid #0ebeff;
+    position: absolute;
+    pointer-events: none;
+}
+
+
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ 
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #0ebeff;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+*/
+
+
+.success-menu-background {
+    background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 219px 40px;
+    margin-top: -66%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+.success-menu-background .success{
+    font-size: 50px;
+}
+.success-menu-background .success-success {
+    font-size: 100px;
+}
+
+.success-verify-menu-background{
+        background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 114px 40px 20px 40px;
+    margin-top: -46.8%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+
+.success-verify-menu-background .success-success-success{
+    font-size: 50px;
+    font-family: relway-light;
+    margin-top: 8%;
+
+}
+
+.success-verify-menu-background .success{
+    font-size: 36px;
+    font-family: relway-light;
+}
+.success-verify-menu-background .success-success{
+    font-size: 72px;
+}
+.menu-carousel-background{
+	  background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 20px 40px 20px 40px;
+    margin-top: -52.6%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+
+.menu-carousel-background .request-now{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.menu-carousel-background .request-book{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel  .carousel-indicators{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+}
+.menu-carousel-background .person p{
+    font-size: 20px;
+    font-family: relway-bold;
+}
+
+.menu-carousel-background .person label {
+    font-size: 16px;
+    font-family: relway-light;
+}
+
+
+.menu-carousel-background #patient-carousel .row{
+    margin-bottom: 20px;
+        padding-left: 15px;
+    padding-right: 15px;
+}
+.menu-carousel-background #patient-carousel .person .col-md-4{
+    padding: 0px;
+}
+    
+ .menu-carousel-background #patient-carousel input{
+    padding:15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;    
+    color: rgb(0, 182, 185);
+    font-size: 24px;
+}
+.menu-carousel-background #patient-carousel textarea{
+    padding:15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;    
+    color: rgb(0, 182, 185);
+    font-size: 24px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-family: relway-light;
+    font-size: 24px;
+    margin-bottom: -1px;
+}
+.menu-carousel-background #patient-carousel  input:focus{
+    outline: none;
+    border: none;
+}
+
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    -webkit-appearance: none;
+    width: 15px;
+    padding: 5px;
+    height: 15px;
+    border: 3px solid rgb(0, 182, 185);
+    border-radius: 50%;
+    outline: none;
+}
+.menu-carousel-background #patient-carousel input[type='radio']:before {
+    content:'';
+    display:block;
+    width:60%;
+    height:60%;
+    margin: 20% auto;    
+    border-radius:50%;    
+}
+.menu-carousel-background #patient-carousel input[type='radio']:hover {
+    box-shadow:0 0 0px 1px #fff inset;
+}
+.menu-carousel-background #patient-carousel input[type='radio']:checked {
+        background-color: rgb(0, 182, 185);
+    box-shadow: 0px 0px 0px 2px #fff inset;
+}
+
+
+ #patient-carousel  select{
+width: 100%;
+color: rgb(150, 150, 150);
+padding: 15px;
+    font-size: 25px;
+border-radius: 10px;
+border: none;
+   background: url('../img/arrow-down.png') no-repeat #fff;
+    background-position: 95% 50%;
+    background-size: 20px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+}
+
+#patient-carousel  select option{
+    width: 100%;
+}
+.menu-carousel-background #patient-carousel select:focus{
+    outline: none;
+}
+
+.next-button{
+    display: inline-flex;
+    float: right;
+}
+#patient-carousel .next-button a{
+    padding: 15px;
+    float: right;
+     background-color: rgb(0, 182, 185);
+     border: none;
+     border-radius: 10px;
+     color: #fff;
+     font-family: relway-regular;
+     width: 120px;
+     text-align: center;
+     font-size: 24px;
+}
+
+#patient-carousel .next-button .submit{
+        padding: 15px;
+    float: right;
+     background-color: rgb(0, 182, 185);
+     border: none;
+     border-radius: 10px;
+     color: #fff;
+     font-family: relway-regular;
+     width: 150px;
+     margin-left: 5px;
+     text-align: center;
+     font-size: 24px;
+}
+
+
+/* successful sosed a doctor*/
+.sosed-menu-background{
+    background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 20px 40px 20px 40px;
+        margin-top: -52%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+
+
+.sosed-menu-background .sosed-title{
+    font-size: 35px;
+    margin-bottom: 0px;
+     font-family: relway-light;
+}
+
+.sosed-menu-background .doctor-section{
+       margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.sosed-menu-background .doctor-section .doctor-pic-container {
+    width: 100%; 
+
+}
+.sosed-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 100%; 
+    border: none;
+    border-radius: 10px;  
+}
+
+.sosed-menu-background .doctor-section .rate-section{
+    display: inline-flex;
+    margin-left: 20%;
+        margin-top: 5px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no{
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+.sosed-menu-background .doctor-section .doctor-information p{
+    margin-bottom: 5px;
+    font-family: relway-light; 
+}
+
+.sosed-menu-background .doctor-section .doctor-information .doctor-name{
+   font-size: 30px;
+   margin-left: 15px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title,
+.sosed-menu-background .doctor-section .doctor-information .doctor-ETA{
+   font-size: 22px;
+   margin-left: 15px;
+}
+
+.sosed-menu-background .sos-number-visits{
+    text-align: center;
+    font-size: 22px;
+    font-family: relway-regular;
+    margin-top: 30px;
+}
+
+.sosed-menu-background .submit-mobile-section{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 29px;
+}
+
+.sosed-menu-background .submit-mobile-section .mobile-icon{
+    text-align: left;
+}
+.sosed-menu-background .cancel-button .cancel{
+        padding: 15px;
+    float: right;
+     background-color: rgb(0, 182, 185);
+     border: none;
+     border-radius: 10px;
+     color: #fff;
+     font-family: relway-regular;
+     width: 150px;
+     margin-left: 5px;
+     text-align: center;
+     font-size: 24px;
+}
+
+
+
+.cancel-menu-background{
+     background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 20px 40px 20px 40px;
+    margin-top: -52.6%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+.cancel-menu-background .cancel-sosed{
+    margin-bottom: 78.5%;
+}
+
+.cancel-menu-background .cancel-sosed-question{
+    font-size: 35px;
+    margin-bottom: 0px;
+     font-family: relway-light;
+}
+.cancel-menu-background .cancel-fees{
+    font-size: 22px;
+    margin-bottom: 5px;
+     font-family: relway-light;
+     
+}
+
+
+.cancel-menu-background .cancel{
+        padding: 15px;
+     background-color: rgb(0, 182, 185);
+     border: none;
+     border-radius: 10px;
+     color: #fff;
+     font-family: relway-regular;
+     width: 150px;
+     text-align: center;
+     font-size: 24px;
+}
+
+
+
+
+/*cancel doctor*/
+
+.cancel-doctor-menu-background{
+     background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 40px 50px;
+    text-align: left;
+    margin-top: -52.6%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+
+
+.cancel-doctor-menu-background .cancel-doctor{
+    font-size: 40px;
+     font-family: relway-light;
+}
+.cancel-doctor-menu-background .cancel-sosing{
+    font-size: 38px;
+    margin-bottom: 5px;
+     font-family: relway-light;
+     margin-top: 10%;
+     }
+
+
+.cancel-doctor-menu-background .cancel{
+        padding: 15px;
+     background-color: rgb(0, 182, 185);
+     border: none;
+     border-radius: 10px;
+     color: #fff;
+     font-family: relway-light;
+     width: 100%;
+     margin-left: 5px;
+     text-align: center;
+     font-size: 30px;
+     margin-top: 54.3%;
+}
+
+.cancel-doctor-menu-background .form-buttons{
+    text-align: center;
+}
+
+
+
+/* rate visit page */
+
+.rate-visit-menu-background{
+    background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+       padding: 20px 40px 20px 40px;
+    margin-top: -52.7%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+    clear: both;
+}
+
+
+.rate-visit-menu-background .rate-visit-title{
+    font-size: 35px;
+    margin-bottom: 0px;
+     font-family: relway-light;
+}
+
+.rate-visit-menu-background .doctor-section{
+    margin-top: 30px;
+
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container {
+    width: 100%; 
+
+}
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 100%; 
+    border: none;
+    border-radius: 10px;  
+}
+
+
+
+.rate-visit-menu-background .doctor-section .doctor-information p{
+    margin-bottom: 0px;
+    font-family: relway-light; 
+}
+
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name{
+   font-size: 30px;
+   margin-left: 15px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title,
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date{
+   font-size: 22px;
+   margin-left: 15px;
+}
+
+
+.rate-visit-menu-background .doctor-section .fa-star:before {
+    content: "\f005";
+
+}
+.rate-visit-menu-background  .rating-list{
+        padding-left: 0px;
+    text-align: center;
+    width: 100%;
+     margin-top: 5%;
+}
+
+
+.rate-visit-menu-background  .rating-list li i.yellow {
+    color: rgb(0, 182, 185);
+}
+
+.rate-visit-menu-background  .rating-list li i.gray {
+    color: #ccc;
+ 
+}
+
+
+.rate-visit-menu-background  .rating-list li {
+       padding: 0px;
+    list-style: none;
+    margin: 0px 10px 0px;
+    display: inline-flex;
+     
+}
+
+.rate-visit-menu-background .rating-list .fa-star {
+    font: normal normal normal 25px/1 FontAwesome;
+    font-size: 50px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.rate-visit-menu-background .cancel-button .submit{
+        padding: 15px;
+    float: right;
+     background-color: rgb(0, 182, 185);
+     border: none;
+     border-radius: 10px;
+     color: #fff;
+     font-family: relway-regular;
+     width: 150px;
+     margin-left: 5px;
+     text-align: center;
+     font-size: 24px;
+     margin-top: 14.5%;
+    
+}
+.rate-visit-menu-background  .visit-comment-section{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.rate-visit-menu-background  .visit-comment-section textarea{
+    width: 100%;
+    padding:16px;
+    font-size: 25px;
+    border: none;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 5%;
+    color: rgb(0, 182, 185);
+}
+.rate-visit-menu-background  .visit-comment-section textarea:focus{
+    border: none;
+    outline: none;
+}
+
+
+.welcome-doctor{
+margin-top: -52%;
+    float: right;
+    margin-right: -50px;
+    } 
+    .welcome-doctor h1{
+          font-size: 70px;
+    font-family: relway-regular;
+    color: #fff;
+    }
+
+    .welcome-doctor .switch-row{
+            display: inline-flex;
+            font-size: 30px;
+            color: #fff;
+    }
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    /* border: 1px solid white; */
+    height: 34px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    display:none;
+}
+
+/* The slider */
+.slider {
+        position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0px;
+    border: 1px solid white;
+    bottom: 0;
+    background-color: transparent;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+     position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 3px;
+    bottom: 3px;
+    border: 3px solid white;
+    background-color: transparent;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(196, 86, 86);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(0, 182, 185);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(46px);
+  -ms-transform: translateX(46px);
+  transform: translateX(46px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/*rate your visit*/
+.last-visit-menu-background{
+    background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 20px 40px 20px 40px;
+    margin-top: -62.7%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+    clear: both;
+}
+
+.last-visit-menu-background .rate-last-visit{
+    font-size: 40px;
+    font-family: relway-light;
+}
+.last-visit-menu-background .table-visit {
+    width: 100%;
+    background: rgba(236, 233, 233, 0.9);
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    /* padding: 20px 10px 20px 10px; */
+    text-align: center;
+}
+.last-visit-menu-background  .table-content{
+        height: 608px;
+    overflow: overlay;
+}
+
+
+.last-visit-menu-background .table-visit th{
+    text-align: center;
+    font-size: 21px;
+    color: rgb(147, 138, 135);
+    font-family: relway-light;
+    padding: 10px;
+}
+
+.last-visit-menu-background .table-visit td{
+    text-align: center;
+    font-size: 21px;
+    color: rgb(22, 22, 22);
+    font-family: relway-regular;
+    padding: 10px;
+}
+
+
+.last-visit-menu-background .table-visit td span.payment-margin{
+ margin-left: 10px;
+
+}
+
+.last-visit-menu-background .table-visit td.complain button{
+    background-color: rgb(245 , 92, 91);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    font-family: relway-light;
+    font-size: 16px;
+    padding:10px;
+
+}
+
+.last-visit-menu-background .table-visit td.complain button:focus{
+border: none;
+outline:none;
+
+}
+
+
+.last-visit-menu-background .table-visit td button{
+    background-color: rgb(0 , 182, 184);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    font-family: relway-light;
+    font-size: 16px;
+    padding:10px;
+
+}
+
+.last-visit-menu-background .table-visit td button:focus{
+border: none;
+outline:none;
+
+}
+
+@media screen and (max-width: 1680px){
+.background-body {
+    width: 1663px;
+    height: 890px;
+}
+.menu-background .register-now {
+    margin-bottom: 88.8%;
+}
+.menu-background {
+    margin-top: -56.7%;
+}
+.menu-background .now {
+    margin-bottom: 75.5%;
+}
+
+/* patient request page */ 
+.menu-carousel-background {
+    margin-top: -47%;
+    }
+.menu-carousel-background .request-now {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.menu-carousel-background .request-book {
+    font-size: 26px;
+    
+}
+.sosed-menu-background .sosed-title {
+    margin-bottom: 71px;
+}
+.sosed-menu-background {
+    padding: 40px 40px 40px 40px;
+    margin-top: -59%;
+}
+
+.cancel-menu-background {
+    margin-top: -50.31%;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 71.5%;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -46.2%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 34px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 34px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 5px
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 15px;
+    margin-left: 0px;
+    font-size: 30px;
+    margin-top: 60%;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form img#close1 {
+    left: 64.5%;
+    top: 172px;
+}
+.doctor-menu-background .doctor-form #xyz #popupContact .container {
+    top: 16%;
+    left: 15%;
+}
+.doctor-menu-background .doctor-form img#close2 {
+    left: 65.5%;
+    top: 150px;
+}
+.doctor-menu-background .doctor-form img#close {
+    left: 65.5%;
+}
+}
+
+
+@media screen and (max-width: 1600px){
+        .background-body {
+    width: 1583px;
+    height: 920px;
+}
+.menu-background .register-now {
+    margin-bottom: 66.5%;
+}
+.menu-background {
+    margin-top: -49%;
+}
+.menu-background .now {
+    margin-bottom: 53.5%;
+}
+/* patient request page */ 
+.menu-carousel-background{
+	margin-top: -44%;
+}
+.menu-carousel-background #patient-carousel .row {
+    margin-bottom: 13.5px;
+    }
+  
+
+.cancel-menu-background {
+    margin-top: -45.31%;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 57.5%;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -39.2%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 34px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 34px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 5px
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 12px;
+    margin-left: 0px;
+    font-size: 24px;
+    margin-top: 45%;
+    border-radius: 5px;
+}
+}
+
+@media screen and (max-width: 1440px){
+.background-body {
+    width: 1423px;
+    height: 700px;
+}
+.menu-background .register-now {
+    margin-bottom: 60.7%;
+}
+.menu-background {
+    margin-top: -47%;
+}
+.menu-background .now {
+    margin-bottom: 47.5%;
+}
+
+
+.success-menu-background {
+    padding: 157px 40px;
+    margin-top: -55%;
+}
+.menu-carousel-background{
+	margin-top: -40.5%;
+}
+.menu-carousel-background .request-now {
+    
+    margin-bottom: 10px;
+}
+.menu-carousel-background #patient-carousel input {
+    font-size: 20px;
+}
+.menu-carousel-background #patient-carousel select {
+   
+    font-size: 20px;
+}
+#patient-carousel .next-button a {
+    padding: 11px;
+    font-size: 21px;
+}
+#patient-carousel .next-button .submit {
+    padding: 11px;
+    font-size: 20px;
+}
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 24px;
+}
+ .menu-carousel-background #patient-carousel textarea {
+    font-size: 20px;
+}
+
+
+.sosed-menu-background {
+    padding: 10px 40px 10px 40px;
+    margin-top: -50.1%; 
+}
+.sosed-menu-background .sosed-title {
+    margin-bottom: 0px;
+}
+.cancel-menu-background {
+    margin-top: -40.31%;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 42.5%;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+       margin-top: -35.5%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 34px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 34px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 5px
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 12px;
+    margin-left: 0px;
+    font-size: 24px;
+    margin-top: 35%;
+    border-radius: 5px;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 32px;
+}
+.rate-visit-menu-background {
+    padding: 15px 40px 15px 40px;
+    margin-top: -46.7%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 26px;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 3%;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    padding: 14px;
+    font-size: 22px;
+    margin-top: 2%;
+}
+.rate-visit-menu-background .cancel-button .submit {
+    margin-top: 7.5%;
+}
+
+.last-visit-menu-background .rate-last-visit {
+    font-size: 36px;
+    font-family: relway-light;
+}
+
+.last-visit-menu-background .table-content {
+    height: 577px;
+    overflow: overlay;
+}
+.last-visit-menu-background {
+    margin-top: -59.5%; 
+}
+.doctor-menu-background {
+    margin-top: -48.5%;
+    padding: 14px 30px;
+}
+.doctor-menu-background .doctor-form .row {
+    margin-bottom: 9.5px;
+}
+.doctor-menu-background .doctor-form .second-col select {
+    padding: 10px;
+    font-size: 20px;
+}
+.doctor-menu-background .doctor-form input {
+    padding: 10px;
+    font-size: 20px;
+}
+.doctor-menu-background .doctor-form .radio-label {
+    font-size: 20px;
+    padding: 10px;
+}
+.doctor-menu-background .doctor-form input[type ="radio"] {
+    width: 10px;
+    padding: 8px;
+    height: 10px;
+}
+.doctor-menu-background .register-doctor {
+    font-size: 24px;
+}
+.doctor-menu-background .doctor-form .second-col .credit-details {
+    padding: 10px;
+    font-size: 20px;
+}
+.doctor-menu-background .doctor-form .second-col .browse {
+    padding: 10px;
+    font-size: 20px;
+}
+}
+
+/*@media screen and (max-width: 1440px){
+    .menu-background {
+    margin-top: -38%;
+}
+.menu-background .register-now {
+    margin-bottom: 35%;
+}
+
+}*/
+
+
+@media screen and (max-width: 1366px){
+    .background-body {
+    width: 1349px;
+    height: 570px;
+}
+.menu-background .register-now {
+    margin-bottom: 33.5%;
+}
+    .menu-background {
+    margin-top: -37.5%;
+}
+.menu-background .book {
+    font-size: 25px;
+    font-family: relway-light;
+}
+.menu-background .now {
+  margin-bottom: 27.5%;
+        font-size: 35px;
+}
+.success-menu-background {
+    padding: 99px 40px;
+    margin-top: -45%;
+}
+.menu-carousel-background{
+	margin-top: -37.5%;
+}
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 22px;
+}
+.menu-carousel-background .request-book {
+    font-size: 20px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.menu-carousel-background .person p {
+  margin: 0 0 15px;
+}
+.menu-carousel-background #patient-carousel .row {
+        margin-bottom: 15px;
+}
+#patient-carousel select {
+    padding: 13px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 13px;
+    }
+.menu-carousel-background #patient-carousel input {
+    padding: 14.5px;
+    }
+    .menu-background .request-now {
+    font-size: 20px;
+}
+#patient-carousel .next-button a {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+}
+.menu-carousel-background .person label{
+	margin-bottom: 3px;
+}
+.sosed-menu-background .doctor-section {
+    margin-top: 10px;
+}
+.sosed-menu-background .sos-number-visits {
+    margin-top: 10px;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sosed-menu-background {
+    margin-top: -41.4%;
+}
+.sosed-menu-background .sosed-title {
+    margin-bottom: 0px;
+    font-size: 27.5px;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+            margin-top: -32.8%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 26px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 27px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 5px
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 12px;
+    margin-left: 0px;
+    font-size: 24px;
+    margin-top: 35%;
+    border-radius: 5px;
+}
+.rate-visit-menu-background .cancel-button .submit {
+    margin-top: 4.5%;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 130px;
+}
+.rate-visit-menu-background {
+   
+    margin-top: -44%;
+}
+
+.last-visit-menu-background {
+    margin-top: -47.5%;
+}
+.last-visit-menu-background .table-content {
+    height: 440px;
+    overflow: overlay;
+}
+}
+
+
+@media screen and (max-width: 1280px){
+.background-body {
+    width: 1263px;
+    height:700px;
+}
+.menu-background .now {
+    margin-bottom: 61.5%;
+    font-size: 35px;
+}	
+.menu-background {
+    margin-top: -49.5%;
+}
+.menu-background .register-now {
+    margin-bottom: 68.3%;
+}
+	.patient-menu-background {
+    padding: 10px 40px 10px 40px;
+    margin-top: -45%;
+}
+.success-menu-background {
+    padding: 125px 40px;
+    margin-top: -49.5%;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sosed-menu-background .sos-number-visits {
+    margin-top: 15px;
+}
+.sosed-menu-background .doctor-section {
+    margin-top: 15px;
+}
+.sosed-menu-background {
+    margin-top: -45%;
+}
+.sosed-menu-background .sosed-title {
+    margin-bottom: 36.5px;
+    font-size: 27.5px;
+}
+.cancel-menu-background {
+    margin-top: -36.31%;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+            margin-top: -32.8%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 26px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 27px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 5px
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 12px;
+    margin-left: 0px;
+    font-size: 24px;
+    margin-top: 35%;
+    border-radius: 5px;
+}
+.rate-visit-menu-background .cancel-button .submit {
+    margin-top: 1.5%;
+    padding: 12px;
+    }
+ .rate-visit-menu-background {
+    margin-top: -42.2%;
+}
+
+
+
+.last-visit-menu-background {
+    margin-top: -58.5%;
+}
+.last-visit-menu-background .table-content {
+    height: 566px;
+    overflow: overlay;
+}
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+.background-body {
+    width: 1003px;
+    height: 550px;
+}
+.menu-background {
+    margin-top: -44.5%;
+}
+
+.menu-background .now {
+    margin-bottom: 38.3%;
+    font-size: 35px;
+}
+.menu-background .book {
+    font-size: 26px;
+}
+
+.menu-background .login-btn a{
+        font-size: 22px;
+}
+
+.menu-background .register-btn a{
+    font-size: 22px;
+}
+.menu-background .register-now {
+    font-size: 38px;
+    margin-bottom: 52%;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 26px;
+    font-size: 26px;
+}
+.menu-carousel-background {
+    margin-top: -44.5%;
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 16px;
+    padding: 14px;
+}
+
+#patient-carousel select {
+    padding: 10px;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 14px;
+    font-size: 16px;
+}
+.menu-carousel-background .person label {
+    font-size: 12px;
+}
+.menu-carousel-background .person p {
+    font-size: 18px;
+}
+#patient-carousel .next-button .submit {
+    padding: 10px;
+    font-size: 16px;
+     width: 100px;
+}
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 20px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 14px;
+    font-size: 16px;
+    height: 80px;
+}
+.menu-carousel-background #patient-carousel .row {
+    margin-bottom: 11px;
+}
+
+.patient-menu-background .patient-form .row {
+    margin-bottom: 15px;
+}
+.patient-menu-background .patient-form input {
+    padding: 10px;
+    font-size: 20px;
+}
+.patient-menu-background .patient-form .second-col select {
+    padding: 10px;
+    font-size: 20px;
+}
+.patient-menu-background {
+    margin-top: -43.4%;
+}
+.success-menu-background {
+    padding: 83px 40px;
+        margin-top: -51%;
+   }
+
+   .sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 16px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 20px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 25px;
+    margin-bottom: -1.5px;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.sosed-menu-background {
+    margin-top: -43.8%;
+}
+.sosed-menu-background .sos-number-visits p {
+    margin: 0 0 0px;
+}
+.sosed-menu-background .doctor-section {
+    margin-top: 10px;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cancel-menu-background .cancel-sosed-question {
+    font-size: 26px;
+}
+.cancel-menu-background .cancel {
+    padding: 13px;
+    font-size: 23px;
+}
+
+
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+            margin-top: -32.8%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 24px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 5px
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 30%;
+    border-radius: 5px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 18px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 20px;
+}
+
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 27px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 40px;
+    }
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 10px; 
+    width: 140px;
+    font-size: 20px;
+    margin-top: 1.5%;
+}
+.rate-visit-menu-background {
+    margin-top: -41%;
+}
+
+.last-visit-menu-background {
+    margin-top: -54.5%;
+}
+.last-visit-menu-background .table-content {
+    height: 411px;
+    overflow: overlay;
+}
+.doctor-menu-background {
+    margin-top: -57.5%;
+    padding: 14px 30px;
+}
+.doctor-menu-background .doctor-form .second-col .upload-info h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+}
+.doctor-menu-background .doctor-form .row {
+    margin-bottom: 8px;
+}
+.success-verify-menu-background {
+    background-color: rgba(196, 86, 86,0.90);
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 50px 40px 20px 40px;
+    margin-top: -55.8%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #fff;
+}
+}
+
+@media screen and (max-width: 800px){
+
+.header1 .header-toggle-btn {
+    background: rgb(0, 186, 186);
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+/*               */
+.navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        float: left;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .header1 .navbar-header .navbar-brand{
+    	margin-left: 32%;
+    }
+/*   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }*/
+
+
+
+/*                  */
+
+	.header1 .burger-menu-collapse{
+	background-color: rgba(55, 55, 55, 0.70);
+	   margin-top: 22px;
+    z-index: 99999999999999;
+    position: relative;
+}
+.header1 .main-ul {
+text-align: center;
+    padding: 0px;
+}
+
+.main-ul .pages-links > .active > a,
+ .main-ul .pages-links > .active > a:hover,
+  .main-ul .pages-links > .active > a:focus{
+	color: #fff;
+}
+.main-ul .pages-links li a{
+    color: #fff;
+}
+.main-ul .languages li a {
+    color: rgb(255, 255, 255);
+}
+.main-ul .pages-links li:hover a{
+    background: none;
+}
+.main-ul .social-links li {
+    margin-right: 10px;
+    display: inline-block;
+}
+.main-ul .social-links {
+  
+     margin-left: 0px;
+}
+
+.burger-menu-collapse .register-links{
+	display: inline-flex;
+
+}
+.background-body {
+    width: 780px;
+    height: 1000px;
+}
+.menu-background .now {
+    margin-bottom: 125.3%;
+    font-size: 28px;
+}
+.menu-background .book {
+    font-size: 21px;
+}
+
+.menu-background .login-btn a{
+            font-size: 20px;
+}
+
+.menu-background .register-btn a{
+        font-size: 20px;
+}
+.menu-background .login-btn, .menu-background .register-btn{
+    margin-bottom: 0px;
+    padding: 6px 12px;
+}
+.menu-background {
+    margin-top: -70.2%;
+    padding: 20px 30px 20px 30px;
+}
+.menu-background .register-now {
+    font-size: 25px;
+    }
+
+.menu-background .register-now {
+    margin-bottom: 115%;
+}
+
+.patient-menu-background .patient-form .second-col select {
+    padding: 15px;
+    font-size: 20px;
+    background-size: 20px;
+}
+.patient-menu-background .patient-form input {
+    padding: 15px;
+    font-size: 20px;
+}
+.patient-menu-background .patient-form .radio-label {
+    font-size: 20px;
+    padding: 15px;
+}
+.patient-menu-background .patient-form input[type ="radio"] {
+    padding: 7px;
+    border: 2px solid rgb(0, 182, 185);
+}
+.patient-menu-background .patient-form .second-col .add-address {
+    font-size: 20px;
+	margin-bottom: -10px;
+}
+.patient-menu-background .patient-form .second-col .submit {
+    margin-top: 53px;
+}
+.patient-menu-background .patient-form .row {
+    margin-bottom: 10px;
+}
+.patient-menu-background .register-patient {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.patient-menu-background {
+    margin-top: -62.5%;
+}
+.patient-menu-background .patient-form input[type='radio']:checked {
+    box-shadow: 0px 0px 0px 2px #fff inset;
+}
+   .success-menu-background .success-success {
+    font-size: 60px;
+}
+.success-menu-background .success {
+    font-size: 30px;
+}
+.success-menu-background {
+    padding: 145.5px 40px;
+    margin-top: -68%;
+}
+.menu-carousel-background {
+    margin-top: -66%;
+    padding: 10px;
+}
+.menu-carousel-background .request-book {
+    font-size: 21px;
+}
+
+
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 15px;
+    padding: 6px;
+    height: 15px;
+    margin-top: 7px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background .person label {
+    font-size: 16px;
+}
+.menu-carousel-background .person p {
+    margin: 0px 0 0px;
+        font-size: 18px
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 16px;
+    padding: 14px;
+    background-size: 14px;
+}
+.menu-carousel-background #patient-carousel .row {
+    margin-bottom: 28.5px;
+}
+
+.menu-carousel-background #patient-carousel input {
+    padding: 14px;
+    font-size: 17px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 12px;
+    font-size: 16px;
+}
+#patient-carousel .next-button .submit {
+    padding: 7px;
+    font-size: 15px;
+    width: 89px;
+}
+#patient-carousel .next-button a {
+    padding: 14px;
+    font-size: 16px;
+    width: 70px;
+}
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.menu-carousel-background #patient-carousel .payment-method {
+    margin-bottom: -5px;
+}
+
+.sosed-menu-background .sosed-title {
+    font-size: 28px;
+    margin-bottom: 21px;
+}
+.sosed-menu-background {
+    padding: 20px;
+    margin-top: -66%;
+}
+.sosed-menu-background .doctor-section {
+    margin-top: 10px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 24px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 22px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no {
+    font-size: 16px;
+}
+.sosed-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+   
+}
+.sosed-menu-background .doctor-section .rate-section img{
+	width: 50%;
+	height: 50%;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.sosed-menu-background .cancel-button .cancel {
+    width: 150px;
+    font-size: 20px;
+    padding: 20px;
+}
+.sosed-menu-background .submit-mobile-section img{
+	width: 60%;
+    height: 60%;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.cancel-menu-background {
+    margin-top: -68.31%;
+    padding: 40px 40px 30px 40px;
+}
+
+.cancel-menu-background .cancel-sosed-question {
+    font-size: 36px;
+}
+.cancel-menu-background .cancel-fees {
+    font-size: 28px;
+}
+.cancel-menu-background .cancel {
+    padding: 16px;
+    width: 140px;
+    font-size: 23px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 47%;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -70%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 24px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 47px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 15px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 66.5%;
+    border-radius: 5px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 20px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 24px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 10px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 40px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 14px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -64.5%;
+}
+
+.last-visit-menu-background {
+    margin-top: -100%;
+}
+.last-visit-menu-background .table-content {
+    height: 618px;
+    overflow: overlay;
+}
+.last-visit-menu-background .table-visit td {
+    font-size: 16px;
+    padding: 8px;
+}
+.doctor-menu-background {
+    margin-top: -72.9%;
+    padding: 14px 30px;
+}
+
+.doctor-menu-background .doctor-form .second-col select {
+    padding: 10px;
+    font-size: 15px;
+    background-size: 14px;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check .agree {
+    width: 25%;
+    color: rgb(0, 182, 185);
+}
+.doctor-menu-background .doctor-form input {
+    padding: 10px;
+    font-size: 15px;
+}
+.doctor-menu-background .doctor-form .second-col .submit {
+    width: 100%;
+    color: #fff;
+    background: #00b5b8;
+    float: right;
+    margin-top: 10px;
+    z-index: 1;
+     margin-left: 22px;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check {
+    display: inline-flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* width: 50%; */
+    width: 65%;
+}
+.success-verify-menu-background {
+   
+    padding: 50px 40px 20px 40px;
+    margin-top: -57%;
+ 
+}
+.success-verify-menu-background .success-success-success {
+    font-size: 33px;
+ 
+}
+}
+
+
+@media screen and (max-width: 640px){
+	.background-body {
+    width: 640px;
+    height: 734px;
+}
+.menu-background {
+    margin-top: -85%;
+    padding: 10px 20px;
+}
+.menu-background .now {
+    margin-bottom: 354px;
+    font-size: 22px;
+}
+
+.menu-background .book {
+    font-size: 18px;
+}
+
+.menu-background .login-btn, .menu-background .register-btn {
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+.menu-background .login-btn a {
+    font-size: 18px;
+}
+.menu-background .register-btn a {
+    font-size: 18px;
+}
+.menu-background .register-now {
+    font-size: 30px;
+    margin-bottom: 130%;
+}
+.patient-menu-background .patient-form .second-col select {
+    padding: 10px;
+    font-size: 16px;
+    background-size: 14px;
+    border-radius: 5px;
+}
+.patient-menu-background .patient-form input {
+    padding: 10px;
+    padding-left: 7px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.patient-menu-background .patient-form .second-col .add-address {
+    font-size: 16px;
+    margin-top: -3px;
+    margin-bottom: -7px;
+}
+.patient-menu-background .patient-form .no-padding{
+	padding:0px;
+}
+.patient-menu-background .patient-form input[type ="radio"] {
+    padding: 6px;
+    width: 12px;
+    height: 12px;
+}
+.patient-menu-background .patient-form .row {
+    margin-bottom: 17.5px;
+}
+.patient-menu-background .register-patient {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.patient-menu-background .patient-form .radio-label {
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+.patient-menu-background .patient-form .second-col .submit {
+    margin-top: 36px;
+    width: 40%;
+}
+.patient-menu-background {
+    padding: 16px 25px 16px 25px;
+    margin-top: -66%;
+}
+.success-menu-background {
+    padding: 108px 40px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.menu-carousel-background .request-book {
+    font-size: 16px;
+}
+#patient-carousel .next-button .submit {
+    padding: 5px;
+    font-size: 14px;
+    width: 79px;
+}
+#patient-carousel .next-button a {
+    padding: 8px;
+    font-size: 16px;
+    width: 65px;
+    margin-top: 0px;
+}
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 11px;
+    padding: 1px;
+    height: 11px;
+    margin-top: 0px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 18px;
+    padding: 14px;
+    padding-left: 7px;
+    background-size: 14px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 14px;
+    font-size: 18px;
+    height: 84px;
+    /* margin-top: 8px; */
+    padding-left: 7px;
+}
+.menu-carousel-background .person label {
+    font-size: 12px;
+}
+.menu-carousel-background .person p {
+    font-size: 14px;
+    /* width: 36px; */
+    margin-top: 0px;
+}
+.menu-carousel-background {
+    padding: 10px;
+    margin-top: -73.5%;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 14px;
+    padding-left: 7px;
+    font-size: 18px;
+}
+
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    background-color: #fff;
+}
+.menu-carousel-background .person {
+	margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel .row {
+    margin-bottom: 26.8px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 14px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sosed-menu-background {
+    padding: 20px;
+    margin-top: -77.8%;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 24px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 22px;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 19px;
+    margin-top: 2px;
+}
+.sosed-menu-background .cancel-button .cancel {
+    width: 100px;
+    font-size: 17px;
+    padding: 14px;
+    border-radius: 5px;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}   
+.sosed-menu-background .doctor-section .rate-section {
+    margin-left: 5%;
+    margin-top: 2px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no {
+    margin-left: 1px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+}
+.cancel-menu-background {
+    margin-top: -76.31%;
+    padding: 40px 40px 30px 40px;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -70%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 34px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 30px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 30px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 14px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 33.1%;
+    border-radius: 5px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 20px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 24px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 10px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 40px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 14px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -75%;
+}
+.last-visit-menu-background .table-visit td.complain button {
+    font-size: 14px;
+    padding: 8px;
+}
+.last-visit-menu-background .table-visit th {
+    font-size: 16px;
+    padding: 6px;
+}
+.last-visit-menu-background .table-visit td {
+    font-size: 14px;
+    padding: 5px;
+}
+.last-visit-menu-background .table-visit td button{
+      font-size: 14px;
+    padding: 8px;
+}
+.last-visit-menu-background .table-content {
+    height: 509px;
+    overflow: overlay;
+}
+.last-visit-menu-background {
+    margin-top: -100%;
+    padding: 20px;
+}
+.success-verify-menu-background .success-success-success {
+    font-size: 28px;
+}
+.success-verify-menu-background {
+    padding: 50px 40px 20px 40px;
+    margin-top: -65%;
+}
+.doctor-menu-background .doctor-form input[type ="radio"] {
+    width: 10px;
+    padding: 5px;
+    height: 10px;
+}
+.doctor-menu-background .doctor-form .second-col .credit-details {
+    padding: 10px;
+    font-size: 15px;
+}
+.doctor-menu-background .doctor-form .second-col .browse {
+    padding: 10px;
+    font-size: 15px;
+}
+.doctor-menu-background .doctor-form .second-col .submit {
+    width: 106%;
+    font-size: 13px;
+    color: #fff;
+    background: #00b5b8;
+    float: right;
+    margin-right: -20px;
+    margin-top: 10px;
+    z-index: 1;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check {
+    display: inline-flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* width: 50%; */
+    width: 65%;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check label{
+       font-size: 12px;
+}
+.doctor-menu-background {
+  margin-top: -100%;
+    padding: 17px 30px;
+    height: 610px;
+    overflow: auto;
+}
+.doctor-menu-background .doctor-form .radio-label {
+    font-size: 15px;
+    padding: 7px;
+}
+.doctor-menu-background .doctor-form #abc #popupContact .container {
+    top: 47%;
+    left: 2%;
+    position: absolute;
+    z-index: 9999;
+}
+.doctor-menu-background .doctor-form #xyz #popupContact .container {
+    top: 35%;
+    left: 20%;
+}
+.doctor-menu-background .doctor-form img#close2 {
+    /* left: 47.5%; */
+    top: 115px;
+   left: 87%;
+}
+.doctor-menu-background .doctor-form .first-col {
+    /* width: 47%; */
+    /* float: right; */
+    width: 100%;
+}
+.doctor-menu-background .doctor-form .second-col {
+    /* width: 47%; */
+    /* float: right; */
+    width: 100%;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check .agree {
+    width: 10%;
+    color: rgb(0, 182, 185);
+    margin-top: 0;
+}
+.doctor-menu-background {
+     margin-top: -100%;
+    padding: 17px 30px;
+    height: 610px;
+    overflow: auto;
+}
+}
+
+@media screen and (max-width: 600px){
+	.header1 .header-toggle-btn {
+    margin-left: 14px;
+}
+	.background-body {
+    width: 600px;
+    height: 800px;
+}
+.menu-background .now {
+    margin-bottom: 320px;
+    font-size: 28px;
+}
+.menu-background {
+    margin-top: -93.5%;
+    padding: 10px 20px;
+}
+	.menu-background .book {
+    font-size: 22px;
+}
+.menu-background .register-now {
+    font-size: 30px;
+    margin-bottom: 147%;
+}
+.patient-menu-background .patient-form .second-col select {
+    padding: 12px;
+    font-size: 16px;
+    background-size: 14px;
+}
+.patient-menu-background .patient-form input {
+    padding: 12px;
+    padding-left: 7px;
+    font-size: 16px;
+}
+.patient-menu-background .patient-form .second-col .add-address {
+    font-size: 16px;
+    margin-top: -3px;
+    margin-bottom: -7px;
+}
+.patient-menu-background .patient-form .no-padding{
+	padding:0px;
+}
+.patient-menu-background .patient-form input[type ="radio"] {
+    padding: 3px;
+    width: 12px;
+    height: 12px;
+}
+.patient-menu-background .patient-form .row {
+    margin-bottom: 10px;
+}
+.patient-menu-background .register-patient {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+.patient-menu-background .patient-form .radio-label {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 4px;
+    margin-bottom: 0px;
+}
+.patient-menu-background .patient-form .second-col .submit {
+    margin-top: 49px;
+    width: 40%;
+}
+.patient-menu-background {
+    padding: 13px 25px 16px 25px;
+    margin-top: -66%;
+}
+.success-menu-background {
+    padding: 94.5px 40px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 23px;
+    font-size: 18px;
+}
+.menu-carousel-background .request-book {
+    font-size: 18px;
+}
+#patient-carousel .next-button .submit {
+    padding: 12px;
+    font-size: 18px;
+    width: 111px;
+}
+#patient-carousel .next-button a {
+    padding: 12px;
+    font-size: 18px;
+    width: 80px;
+    margin-top: 0px;
+}
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 15px;
+    padding: 1px;
+    height: 15px;
+    margin-top: 0px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 18px;
+    padding: 14px;
+    padding-left: 7px;
+    background-size: 14px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 14px;
+    font-size: 18px;
+    height: 84px;
+    /* margin-top: 8px; */
+    padding-left: 7px;
+}
+.menu-carousel-background .person label {
+    font-size: 16px;
+}
+.menu-carousel-background .person p {
+    font-size: 18px;
+    /* width: 36px; */
+    margin-top: 0px;
+}
+.menu-carousel-background {
+    padding: 10px;
+    margin-top: -73.5%;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 14px;
+    padding-left: 7px;
+    font-size: 18px;
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    background-color: #fff;
+}
+.menu-carousel-background .person {
+	margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel .row {
+    margin-bottom: 18.5px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 14px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+.sosed-menu-background {
+    padding: 20px;
+    margin-top: -80.8%;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 22px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 20px;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 18px;
+    margin-top: 2px;
+}
+.sosed-menu-background .cancel-button .cancel {
+    width: 100px;
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 5px;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}   
+.sosed-menu-background .doctor-section .rate-section {
+    margin-left: 5%;
+    margin-top: 2px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no {
+    margin-left: 1px;
+}
+.cancel-menu-background .cancel {
+    padding: 16px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+    font-size: 20px;
+}
+.cancel-menu-background {
+    margin-top: -76.31%;
+    padding: 40px 40px 30px 40px;
+}
+.cancel-menu-background .cancel-fees {
+    font-size: 18px;
+}
+
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -73%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 34px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 30px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 30px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 14px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 33.1%;
+    border-radius: 5px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 20px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 24px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 10px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 40px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 14px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -79.4%;
+}
+.last-visit-menu-background {
+    margin-top: -107%;
+    padding: 20px;
+}
+.success-verify-menu-background .success-success-success {
+    font-size: 25px;
+}
+.success-verify-menu-background {
+    padding: 50px 40px 20px 40px;
+    margin-top: -68%;
+}
+.doctor-menu-background .doctor-form .second-col select {
+    padding: 10px;
+    font-size: 13px;
+    background-size: 14px;
+}
+.doctor-menu-background .doctor-form input {
+    padding: 10px;
+    font-size: 12px;
+}
+.doctor-menu-background .doctor-form .second-col .submit {
+    width: 100%;
+    font-size: 12px;
+
+}
+.doctor-menu-background .doctor-form .second-col .upload-info h4 {
+    font-size: 10px;
+}
+.doctor-menu-background {
+margin-top: -100%;
+    padding: 17px 30px;
+        height: 570px;
+}
+}
+
+
+@media screen and (max-width: 480px){
+	.header1 .header-toggle-btn {
+    background: rgb(0, 186, 186);
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 14px;
+}
+.background-body {
+    width: 480px;
+    height: 694px;
+}
+.menu-background {
+    margin-top: -95.8%;
+    padding: 10px 20px;
+}
+.menu-background .now {
+    margin-bottom: 144%;
+    font-size: 16px;
+}
+
+.menu-background .book {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.menu-background .login-btn, .menu-background .register-btn{
+    padding: 6px 12px;
+    margin-bottom: 5px;
+}
+.menu-background .login-btn a {
+    font-size: 18px;
+}
+.menu-background .register-btn a {
+    font-size: 18px;
+}
+.menu-background .register-now {
+    font-size: 20px;
+    margin-bottom: 161.3%;
+}
+
+    .footer1 {
+    font-size: 10px;
+}
+.footer1 .copyright {
+    margin-top: 20px;
+}
+.footer1 .developedby{
+    margin-top: 20px;
+}
+.header1 .navbar-header .navbar-brand {
+    margin-left: 16%;
+}
+
+.patient-menu-background .patient-form .second-col select {
+    padding: 8px;
+    font-size: 14px;
+    background-size: 14px;
+    border-radius: 5px;
+}
+.patient-menu-background .patient-form input {
+    padding: 8px;
+    padding-left: 7px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.patient-menu-background .patient-form .second-col .add-address {
+    font-size: 14px;
+    margin-top: -3px;
+    margin-bottom: -5px;
+}
+.patient-menu-background .patient-form .no-padding{
+	padding:0px;
+}
+.patient-menu-background .patient-form input[type ="radio"] {
+    padding: 3px;
+    width: 12px;
+    height: 12px;
+}
+.patient-menu-background .patient-form .row {
+    margin-bottom: 8.5px;
+}
+.patient-menu-background .register-patient {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.patient-menu-background .patient-form .radio-label {
+    font-size: 14px;
+    padding: 8px;
+    padding-left: 3px;
+    margin-bottom: 0px;
+}
+.patient-menu-background .patient-form .second-col .submit {
+    margin-top: 46px;
+    width: 40%;
+}
+.patient-menu-background {
+    padding: 3px 25px 3px 25px;
+    margin-top: -66%;
+}
+.success-menu-background .success {
+    font-size: 26px;
+}
+.success-menu-background .success-success {
+    font-size: 50px;
+}
+.success-menu-background {
+    padding: 65.5px 25px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.menu-carousel-background .request-book {
+    font-size: 16px;
+}
+#patient-carousel .next-button .submit {
+    padding: 5px;
+    font-size: 14px;
+    width: 79px;
+}
+#patient-carousel .next-button a {
+    padding: 8px;
+    font-size: 16px;
+    width: 65px;
+    margin-top: 0px;
+}
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 11px;
+    padding: 1px;
+    height: 11px;
+    margin-top: 0px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 7px;
+    background-size: 12px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 10px;
+    font-size: 14px;
+    height: 62px;
+    /* margin-top: 8px; */
+    padding-left: 7px;
+}
+.menu-carousel-background .person label {
+    font-size: 12px;
+}
+.menu-carousel-background .person p {
+    font-size: 14px;
+    /* width: 36px; */
+    margin-top: 0px;
+}
+.menu-carousel-background {
+    padding: 10px;
+    margin-top: -73.5%;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 10px;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    background-color: #fff;
+}
+.menu-carousel-background .person {
+	margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel .row {
+    margin-bottom: 14px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 14px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.sosed-menu-background {
+    padding: 20px;
+    margin-top: -90.1%;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 22px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 18px;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 18px;
+    margin-top: 2px;
+}
+.sosed-menu-background .cancel-button .cancel {
+    width: 100px;
+    font-size: 14px;
+    padding: 14px;
+    border-radius: 5px;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}	
+.sosed-menu-background .doctor-section .rate-section {
+    margin-left: 5%;
+    margin-top: 2px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no {
+    margin-left: 1px;
+}
+.cancel-menu-background {
+    margin-top: -44%;
+    padding: 10px 10px 10px 45px;
+}
+
+.cancel-menu-background .cancel {
+    padding: 16px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+    font-size: 20px;
+}
+.cancel-menu-background {
+    margin-top: -76.31%;
+    padding: 40px 40px 30px 40px;
+}
+.cancel-menu-background .cancel-fees {
+    font-size: 18px;
+}
+.cancel-menu-background .cancel-sosed-question {
+    font-size: 22px;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -82.5%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 30px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 30px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 14px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 33.1%;
+    border-radius: 5px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 17px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 20px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 10px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 34px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 14px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -92.5%;
+}
+.last-visit-menu-background .table-visit th {
+    font-size: 15px;
+    padding: 2px;
+}
+.last-visit-menu-background .rate-last-visit {
+    font-size: 24px;
+    padding-left: 15px;
+    font-family: relway-light;
+}
+.last-visit-menu-background {
+    margin-top: -107%;
+    padding: 5px;
+}
+.last-visit-menu-background .table-visit td.complain button {
+    font-size: 14px;
+    padding: 4px;
+}
+.last-visit-menu-background .table-visit td button {
+    font-size: 14px;
+    padding: 4px;
+}
+.last-visit-menu-background .table-visit td {
+    font-size: 14px;
+    padding: 4px;
+}
+.last-visit-menu-background .table-content {
+    height: 427px;
+    overflow: overlay;
+}
+.success-verify-menu-background {
+    padding: 50px 10px 20px 10px;
+    margin-top: -79.5%;
+}
+.success-verify-menu-background .success-success {
+    font-size: 56px;
+}
+.success-verify-menu-background .success-success-success {
+    font-size: 22px;
+}
+.doctor-menu-background .doctor-form input[type ="radio"] {
+    width: 10px;
+    padding: 3px;
+    height: 10px;
+}
+.doctor-menu-background .doctor-form .radio-label {
+    font-size: 12px;
+    padding: 1px;
+}
+.doctor-menu-background .doctor-form input {
+    padding: 9px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col select {
+    padding: 9px;
+    font-size: 10px;
+    background-size: 12px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col .browse {
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col .credit-details {
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col .upload-info h4 {
+    font-size: 8px;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check label {
+    font-size: 9px;
+}
+.doctor-menu-background .doctor-form .second-col .submit {
+    width: 100%;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.doctor-menu-background {
+  margin-top: -100%;
+    padding: 17px 17px;
+    height: 450px;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 425px){
+.background-body {
+    width: 412px;
+    height: 576px;
+}
+.menu-background {
+    margin-top: -90.8%;
+    padding: 10px 20px;
+}
+.menu-background .now {
+    margin-bottom: 134%;
+    font-size: 16px;
+}
+
+.menu-background .book {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.menu-background .login-btn, .menu-background .register-btn{
+    padding: 6px 12px;
+    margin-bottom: 5px;
+}
+.menu-background .login-btn a {
+       font-size: 13px;
+}
+.menu-background .register-btn a {
+        font-size: 13px;
+}
+.menu-background .register-now {
+    font-size: 18px;
+    margin-bottom: 151%;
+}
+    .footer1 {
+    font-size: 10px;
+}
+.footer1 .copyright {
+    margin-top: 20px;
+}
+.footer1 .copyright{
+    margin-top: 20px;
+}
+.patient-menu-background .patient-form .second-col select {
+    padding: 8px;
+    font-size: 14px;
+    background-size: 14px;
+    border-radius: 5px;
+}
+.patient-menu-background .patient-form input {
+    padding: 8px;
+    padding-left: 7px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.patient-menu-background .patient-form .second-col .add-address {
+    font-size: 14px;
+    margin-top: -3px;
+    margin-bottom: -4px;
+}
+.patient-menu-background .patient-form .no-padding{
+	padding:0px;
+}
+.patient-menu-background .patient-form input[type ="radio"] {
+    padding: 3px;
+    width: 12px;
+    height: 12px;
+}
+.patient-menu-background .patient-form .row {
+    margin-bottom: 4px;
+}
+.patient-menu-background .register-patient {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.patient-menu-background .patient-form .radio-label {
+    font-size: 13px;
+    padding: 8px;
+    margin-bottom: 0px;
+}
+.patient-menu-background .patient-form .second-col .submit {
+    margin-top: 35px;
+    width: 40%;
+}
+.patient-menu-background {
+    padding: 3px 25px 3px 25px;
+    margin-top: -66.5%;
+}
+.success-menu-background .success-success {
+    font-size: 40px;
+}
+.success-menu-background .success {
+    font-size: 20px;
+}
+.success-menu-background {
+    padding: 59px 40px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.menu-carousel-background .request-book {
+    font-size: 16px;
+}
+#patient-carousel .next-button .submit {
+    padding: 5px;
+    font-size: 14px;
+    width: 79px;
+}
+#patient-carousel .next-button a {
+    padding: 8px;
+    font-size: 16px;
+    width: 65px;
+    margin-top: 0px;
+}
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 11px;
+    padding: 1px;
+    height: 11px;
+    margin-top: 0px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 7px;
+    background-size: 14px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 10px;
+    font-size: 14px;
+    height: 62px;
+    /* margin-top: 8px; */
+    padding-left: 7px;
+}
+.menu-carousel-background .person label {
+    font-size: 12px;
+}
+.menu-carousel-background .person p {
+    font-size: 14px;
+    /* width: 36px; */
+    margin-top: 0px;
+}
+.menu-carousel-background {
+    padding: 10px;
+    margin-top: -74.5%;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 10px;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    background-color: #fff;
+}
+.menu-carousel-background .person {
+	margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel .row {
+    
+    margin-bottom: 5px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+
+.sosed-menu-background .sosed-title {
+    font-size: 18px;
+}
+.sosed-menu-background {
+    padding: 10px;
+    margin-top: -87.8%;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 16px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 14px;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 14px;
+    margin-top: 2px;
+}
+.sosed-menu-background .cancel-button .cancel {
+    width: 100px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}	
+.sosed-menu-background .doctor-section .rate-section {
+    margin-left: 5%;
+    margin-top: 2px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no {
+    margin-left: 1px;
+}
+.cancel-menu-background {
+    margin-top: -44%;
+    padding: 10px 10px 10px 45px;
+}
+
+.cancel-menu-background .cancel {
+    padding: 12px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+    font-size: 20px;
+}
+.cancel-menu-background {
+    margin-top: -76.31%;
+    padding: 20px 40px 22px 40px;
+}
+.cancel-menu-background .cancel-fees {
+    font-size: 18px;
+}
+.cancel-menu-background .cancel-sosed-question {
+    font-size: 22px;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -87%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 27px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 30px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 14px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 33.1%;
+    border-radius: 5px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 14px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 16px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 10px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 26px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 14px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -99.7%;
+}
+.last-visit-menu-background .table-visit td {
+    font-size: 12px;
+    padding: 2px;
+    padding-top: 5px;
+}
+.last-visit-menu-background .table-visit th {
+    font-size: 12px;
+    padding: 0px;
+    padding-top: 5px;
+}
+.last-visit-menu-background .table-visit td.complain button {
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 2px;
+}
+.last-visit-menu-background .table-visit td button {
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 2px;
+}
+.last-visit-menu-background .table-content {
+    height: 357px;
+    overflow: overlay;
+}
+.success-verify-menu-background .success-success {
+    font-size: 50px;
+}
+.success-verify-menu-background .success-success-success {
+    font-size: 19px;
+}
+.success-verify-menu-background {
+    padding: 50px 10px 20px 10px;
+    margin-top: -88.5%;
+}
+.doctor-menu-background .doctor-form .second-col .submit {
+    width: 100%;
+    /* margin-left: 126px; */
+    margin-left: 20px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check label {
+    font-size: 8px;
+}
+.doctor-menu-background {
+    margin-top: -109%;
+    padding: 17px 10px;
+    height: 416px;
+}
+.doctor-menu-background .doctor-form .radio-label {
+    font-size: 11px;
+    padding: 1px;
+}
+}
+
+
+@media screen and (max-width: 384px){
+	.background-body {
+    width: 384px;
+    height: 480px;
+}
+	.menu-background {
+    margin-top: -97.8%;
+    padding: 10px 20px;
+}
+
+.header1 .navbar-header .navbar-brand {
+    margin-left: 14%;
+}
+.menu-background .register-now {
+    font-size: 16px;
+    margin-bottom: 168%;
+}
+.patient-menu-background .patient-form input[type ="radio"] {
+    padding: 4px;
+    width: 10px;
+    height: 10px;
+}
+.patient-menu-background .patient-form .radio-label {
+    font-size: 12px;
+    padding: 8px;
+    padding-left: 3px;
+    margin-bottom: 0px;
+}
+.patient-menu-background .patient-form .second-col .add-address {
+    font-size: 12px;
+    margin-top: -3px;
+    margin-bottom: -4px;
+}
+.patient-menu-background .register-patient {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.patient-menu-background .patient-form input {
+    padding: 8px;
+    padding-left: 7px;
+    font-size: 12px;
+}
+.patient-menu-background .patient-form .second-col select {
+    padding: 8px;
+    font-size: 12px;
+    
+    background-size: 12px;
+}
+.patient-menu-background {
+    margin-top: -68.6%;
+    padding: 10px 20px;
+}
+.success-menu-background .success {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.success-menu-background {
+    padding: 66px 40px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.menu-carousel-background .request-book {
+    font-size: 16px;
+}
+#patient-carousel .next-button .submit {
+    padding: 5px;
+    font-size: 14px;
+    width: 79px;
+}
+#patient-carousel .next-button a {
+    padding: 8px;
+    font-size: 16px;
+    width: 65px;
+    margin-top: 0px;
+}
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 11px;
+    padding: 1px;
+    height: 11px;
+    margin-top: 0px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 7px;
+    background-size: 12px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 10px;
+    font-size: 14px;
+    height: 62px;
+    /* margin-top: 8px; */
+    padding-left: 7px;
+}
+.menu-carousel-background .person label {
+    font-size: 12px;
+}
+.menu-carousel-background .person p {
+    font-size: 14px;
+    /* width: 36px; */
+    margin-top: 0px;
+}
+.menu-carousel-background {
+    padding: 10px;
+    margin-top: -81%;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 10px;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    background-color: #fff;
+}
+.menu-carousel-background .person {
+	margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel .row {
+    
+    margin-bottom: 5px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+.sosed-menu-background .cancel-button .cancel {
+    width: 100px;
+    font-size: 16px;
+    padding: 14px;
+    border-radius: 5px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.sosed-menu-background {
+    padding: 12px;
+    margin-top: -89.8%;
+}
+.sosed-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    border-radius: 5px;
+    width: 80%;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 16px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 14px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no {
+    font-size: 14px;
+}
+.sosed-menu-background .doctor-section .rate-section img {
+    width: 50%;
+    height: 50%;
+}
+.sosed-menu-background .doctor-section .rate-section {
+    margin-left: 15%;
+    margin-top: 0px;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 16px;
+}
+
+.cancel-menu-background {
+    margin-top: -44%;
+    padding: 10px 10px 10px 45px;
+}
+
+.cancel-menu-background .cancel {
+    padding: 12px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+    font-size: 20px;
+}
+.cancel-menu-background {
+    margin-top: -80.31%;
+    padding: 20px 40px 22px 40px;
+}
+.cancel-menu-background .cancel-fees {
+    font-size: 18px;
+}
+.cancel-menu-background .cancel-sosed-question {
+    font-size: 22px;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -87%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 24px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 30px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 14px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 33.1%;
+    border-radius: 5px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 14px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 16px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 6px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 21px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 14px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -101%;
+}
+.last-visit-menu-background .table-visit td {
+    font-size: 11px;
+    padding: 2px;
+    padding-top: 2px;
+}
+.last-visit-menu-background .table-visit th {
+    font-size: 12px;
+    padding: 0px;
+    padding-top: 2px;
+}
+.last-visit-menu-background .table-content {
+    height: 325px;
+    overflow: overlay;
+}
+.success-verify-menu-background .success-success-success {
+    font-size: 17px;
+}
+.success-verify-menu-background .success-success {
+    font-size: 46px;
+}
+.success-verify-menu-background {
+    padding: 50px 10px 20px 10px;
+    margin-top: -92.5%;
+}
+.doctor-menu-background .doctor-form .radio-label {
+    font-size: 10px;
+    padding: 0px;
+}
+.doctor-menu-background .doctor-form .second-col .browse {
+    padding: 9px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col .credit-details {
+    padding: 9px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form input[type ="radio"] {
+    width: 8px;
+    padding: 2px;
+    height: 8px;
+}
+.doctor-menu-background {
+    margin-top: -115.5%;
+    padding: 17px 10px;
+     height: 409px;
+}
+}
+
+@media screen and (max-width: 375px){
+	.background-body {
+    width: 375px;
+    height: 507px;
+}
+.menu-background {
+    margin-top: -99%;
+}
+
+.menu-background .register-now {
+    margin-bottom: 170%;
+}
+.patient-menu-background .patient-form .second-col .add-address i.fa-plus {
+    width: 16px;
+    font-size: 8px;
+}
+.patient-menu-background .patient-form .second-col .add-address {
+    font-size: 11px;
+    margin-top: -3px;
+    margin-bottom: -2px;
+}
+.patient-menu-background .patient-form .row {
+    margin-bottom: 3.5px;
+}
+.patient-menu-background {
+    margin-top: -73%;
+}
+.patient-menu-background .register-patient {
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+.patient-menu-background .patient-form input {
+    padding: 8px;
+    padding-left: 7px;
+    font-size: 12px;
+}	
+.patient-menu-background .patient-form .second-col select {
+    padding: 8px;
+    font-size: 12px;
+    background-size: 12px;
+    
+}
+.patient-menu-background .patient-form .radio-label {
+    font-size: 11px;
+    padding: 8px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+.patient-menu-background .patient-form .second-col .submit {
+    margin-top: 38px;
+    width: 40%;
+}
+.success-menu-background {
+    padding: 57.5px 25px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.menu-carousel-background .request-book {
+    font-size: 16px;
+}
+#patient-carousel .next-button .submit {
+    padding: 5px;
+    font-size: 14px;
+    width: 79px;
+}
+#patient-carousel .next-button a {
+    padding: 8px;
+    font-size: 16px;
+    width: 65px;
+    margin-top: 0px;
+}
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 11px;
+    padding: 1px;
+    height: 11px;
+    margin-top: 0px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 7px;
+    background-size: 12px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 10px;
+    font-size: 14px;
+    height: 62px;
+    /* margin-top: 8px; */
+    padding-left: 7px;
+}
+.menu-carousel-background .person label {
+    font-size: 12px;
+}
+.menu-carousel-background .person p {
+    font-size: 14px;
+    /* width: 36px; */
+    margin-top: 0px;
+}
+.menu-carousel-background {
+    padding: 10px;
+    margin-top: -83%;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 10px;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    background-color: #fff;
+}
+.menu-carousel-background .person {
+	margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel .row {
+    
+    margin-bottom: 5px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+.sosed-menu-background .sosed-title {
+    font-size: 18px;
+        margin-bottom: 7px;
+}
+.sosed-menu-background {
+    padding: 12px;
+    margin-top: -88.8%;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 14px;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 12px;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 14px;
+    margin-top: 2px;
+}
+.sosed-menu-background .cancel-button .cancel {
+    width: 100px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}	
+.sosed-menu-background .doctor-section .rate-section {
+    margin-left: 5%;
+    margin-top: 2px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no {
+    margin-left: 1px;
+}
+.cancel-menu-background {
+    margin-top: -44%;
+    padding: 10px 10px 10px 45px;
+}
+
+.cancel-menu-background .cancel {
+    padding: 12px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+    font-size: 20px;
+}
+.cancel-menu-background {
+    margin-top: -81.5%;
+    padding: 20px 40px 22px 40px;
+}
+.cancel-menu-background .cancel-fees {
+    font-size: 18px;
+}
+.cancel-menu-background .cancel-sosed-question {
+    font-size: 22px;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -88%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 24px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 30px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 14px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 33.1%;
+    border-radius: 5px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 14px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 15px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 6px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 20px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 14px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -102.5%;
+}
+.last-visit-menu-background .table-content {
+    height: 315px;
+    overflow: overlay;
+}
+.success-verify-menu-background {
+    padding: 50px 10px 20px 10px;
+    margin-top: -95%;
+}
+.doctor-menu-background .doctor-form .second-col .submit {
+    width: 100%;
+    /* margin-left: 126px; */
+    margin-right: -20px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col .credit-details {
+    padding: 7px;
+    font-size: 8px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col .browse {
+    padding: 7px;
+    font-size: 8px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form input {
+    padding: 7px;
+    font-size: 8px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .second-col select {
+    padding: 7px;
+    font-size: 8px;
+    background-size: 10px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .radio-label {
+    font-size: 8px;
+    padding: 0px;
+}
+.doctor-menu-background {
+    margin-top: -105%;
+    padding: 17px 10px;
+      height: 362px;
+}
+}
+
+@media screen and (max-width: 360px){
+.background-body {
+    width: 360px;
+    height: 480px;
+}
+.menu-background .now {
+    margin-bottom: 130%;
+    font-size: 16px;
+}
+.menu-background .register-now {
+    margin-bottom: 168%;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.menu-carousel-background .request-book {
+    font-size: 16px;
+}
+#patient-carousel .next-button .submit {
+    padding: 5px;
+    font-size: 14px;
+    width: 79px;
+}
+#patient-carousel .next-button a {
+    padding: 8px;
+    font-size: 16px;
+    width: 65px;
+    margin-top: 0px;
+}
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 11px;
+    padding: 1px;
+    height: 11px;
+    margin-top: 0px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 7px;
+    background-size: 12px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 10px;
+    font-size: 14px;
+    height: 62px;
+    /* margin-top: 8px; */
+    padding-left: 7px;
+}
+.menu-carousel-background .person label {
+    font-size: 12px;
+}
+.menu-carousel-background .person p {
+    font-size: 14px;
+    /* width: 36px; */
+    margin-top: 0px;
+}
+.menu-carousel-background {
+    padding: 10px;
+    margin-top: -87%;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 10px;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    background-color: #fff;
+}
+.menu-carousel-background .person {
+	margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel .row {
+    
+    margin-bottom: 5px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+.cancel-menu-background {
+    margin-top: -44%;
+    padding: 10px 10px 10px 45px;
+}
+
+.cancel-menu-background .cancel {
+    padding: 12px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+    font-size: 20px;
+}
+.cancel-menu-background {
+    margin-top: -84.31%;
+    padding: 20px 40px 22px 40px;
+}
+.cancel-menu-background .cancel-fees {
+    font-size: 18px;
+}
+.cancel-menu-background .cancel-sosed-question {
+    font-size: 22px;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -90%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 22px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 30px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 14px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 33.1%;
+    border-radius: 5px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 14px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 15px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 2px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 18px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 14px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -102.5%;
+}
+.last-visit-menu-background .table-visit td {
+    font-size: 10px;
+    padding: 2px;
+    padding-top: 2px;
+}
+.last-visit-menu-background .table-content {
+    height: 299px;
+    overflow: overlay;
+}
+.success-verify-menu-background .success-success {
+    font-size: 44px;
+}
+.success-verify-menu-background .success-success-success {
+    font-size: 16px;
+}
+.success-verify-menu-background {
+    padding: 50px 10px 20px 10px;
+    margin-top: -97.5%;
+}
+.doctor-menu-background {
+    margin-top: -109.5%;
+    padding: 17px 10px;
+    height: 362px;
+}
+}
+
+
+
+@media screen and (max-width: 320px){
+	.background-body {
+    width: 320px;
+    height: 408px;
+}
+    .menu-background {
+        margin-top: -100%;
+    padding: 10px 10px;
+}
+.menu-background .now {
+    margin-bottom: 137%;
+    font-size: 12px;
+}
+
+.menu-background .book {
+        font-size: 11px;
+        margin-bottom: 5px;
+}
+
+.menu-background .login-btn, .menu-background .register-btn{
+        padding: 3px 10px;
+    margin-bottom: 5px;
+}
+.menu-background .login-btn a {
+       font-size: 11px;
+}
+.menu-background .register-btn a {
+        font-size: 11px;
+}
+.menu-background .register-now {
+    font-size: 16px;
+    margin-bottom: 148%;
+}
+
+    .footer1 {
+    font-size: 8px;
+}
+.footer1 .copyright {
+    margin-top: 20px;
+}
+.footer1 .copyright{
+    margin-top: 20px;
+}
+.patient-menu-background .patient-form .second-col .add-address i.fa-plus {
+    width: 14px;
+    font-size: 8px;
+}
+.patient-menu-background .register-patient {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.patient-menu-background .register-patient {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.patient-menu-background .patient-form .second-col .add-address {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.patient-menu-background .patient-form input {
+    padding: 8px;
+    padding-left: 7px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.patient-menu-background .patient-form .second-col select {
+    background-size: 12px;
+    border-radius: 5px;
+}
+.patient-menu-background .patient-form .radio-label {
+    font-size: 9px;
+    padding: 8px;
+    padding-left: 2px;
+    margin-bottom: 0px;
+}
+.patient-menu-background .patient-form .second-col .submit {
+    margin-top: 35px;
+    width: 50%;
+}
+
+.patient-menu-background .patient-form .row {
+    margin-bottom: 3px;
+}
+.patient-menu-background {
+    margin-top: -85%;
+}
+
+
+
+.success-menu-background .success-success {
+    font-size: 30px;
+}
+.success-menu-background {
+    padding: 51px 40px;
+}
+.menu-carousel-background .request-now {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.menu-carousel-background .request-book {
+    font-size: 16px;
+}
+#patient-carousel .next-button .submit {
+    padding: 5px;
+    font-size: 14px;
+    width: 79px;
+}
+#patient-carousel .next-button a {
+    padding: 8px;
+    font-size: 16px;
+    width: 65px;
+    margin-top: 0px;
+}
+.menu-carousel-background #patient-carousel input[type ="radio"] {
+    width: 11px;
+    padding: 1px;
+    height: 11px;
+    margin-top: 0px;
+    border: 1px solid rgb(0, 182, 185);
+}
+.menu-carousel-background #patient-carousel select {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 7px;
+    background-size: 14px;
+}
+.menu-carousel-background #patient-carousel textarea {
+    padding: 10px;
+    font-size: 14px;
+    height: 62px;
+    /* margin-top: 8px; */
+    padding-left: 7px;
+}
+.menu-carousel-background .person label {
+    font-size: 11px;
+}
+.menu-carousel-background .person p {
+    font-size: 14px;
+    /* width: 36px; */
+    margin-top: 0px;
+}
+.menu-carousel-background {
+    padding: 10px;
+    margin-top: -98%;
+}
+.menu-carousel-background #patient-carousel input {
+    padding: 10px;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    background-color: #fff;
+}
+.menu-carousel-background .person {
+	margin-bottom: 0px;
+}
+.menu-carousel-background #patient-carousel .row {
+    
+    margin-bottom: 5px;
+}
+
+.menu-carousel-background #patient-carousel .payment-method {
+    font-size: 16px;
+}
+
+.sosed-menu-background .sosed-title {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.sosed-menu-background {
+    padding: 10px;
+    margin-top: -91.8%;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 14px;
+}
+.sosed-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    border-radius: 5px;
+    width: 70%;
+}
+.sosed-menu-background .doctor-section .doctor-information .doctor-title, .sosed-menu-background .doctor-section .doctor-information .doctor-ETA {
+    font-size: 12px;
+}
+.sosed-menu-background .sos-number-visits {
+    font-size: 14px;
+    margin-top: 2px;
+}
+.sosed-menu-background .cancel-button .cancel {
+    width: 100px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sosed-menu-background .submit-mobile-section {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}	
+.sosed-menu-background .doctor-section .rate-section {
+    margin-left: 5%;
+    margin-top: 2px;
+}
+.sosed-menu-background .doctor-section .rate-section .rate-no {
+    margin-left: 1px;
+}
+.cancel-menu-background {
+    margin-top: -44%;
+    padding: 10px 10px 10px 45px;
+}
+
+.cancel-menu-background .cancel {
+    padding: 8px;
+    width: 85px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.cancel-menu-background .cancel-sosed {
+    margin-bottom: 31%;
+    font-size: 20px;
+}
+.cancel-menu-background {
+    margin-top: -84.31%;
+    padding: 20px 40px 22px 40px;
+}
+.cancel-menu-background .cancel-fees {
+    font-size: 18px;
+}
+.cancel-menu-background .cancel-sosed-question {
+    font-size: 19px;
+}
+.cancel-doctor-menu-background {
+    padding: 20px 40px;
+    margin-top: -90%;
+}
+.cancel-doctor-menu-background .cancel-sosing {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.cancel-doctor-menu-background .cancel-doctor {
+    font-size: 18px;
+}
+.cancel-doctor-menu-background .cancel-doctor p {
+    margin-bottom: 30px;
+}
+.cancel-doctor-menu-background .cancel {
+    padding: 10px;
+    margin-left: 0px;
+    font-size: 16px;
+    margin-top: 33.1%;
+    border-radius: 5px;
+}
+
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-title, .rate-visit-menu-background .doctor-section .doctor-information .doctor-visit-date {
+    font-size: 12px;
+}
+.rate-visit-menu-background .doctor-section .doctor-information .doctor-name {
+    font-size: 13px;
+}
+.rate-visit-menu-background .doctor-section .doctor-pic-container .doctor-pic {
+    width: 85%;
+}
+.rate-visit-menu-background .rating-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.rate-visit-menu-background .rate-visit-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.rate-visit-menu-background .visit-comment-section textarea {
+    height: 79px;
+    padding: 6px;
+    font-size: 14px;
+    margin-top: 0%;
+}
+.rate-visit-menu-background .doctor-section .doctor-information p {
+    margin-bottom: 6px;
+    font-family: relway-light;
+}
+.rate-visit-menu-background .doctor-section {
+    margin-top: 17px;
+}
+.rate-visit-menu-background .rating-list .fa-star {
+    font-size: 12px;
+}
+
+.rate-visit-menu-background .cancel-button .submit {
+    padding: 12px;
+    width: 100px;
+    font-size: 16px;
+    margin-top: 3.5%;
+    margin-right: 30px;
+}
+
+.rate-visit-menu-background {
+    padding: 15px 20px 15px 20px;
+    margin-top: -100.5%;
+}
+.last-visit-menu-background .table-visit td {
+    font-size: 10px;
+    padding: 1px;
+    padding-top: 2px;
+    /* border: 1px solid grey; */
+}
+.last-visit-menu-background .table-content {
+    height: 257px;
+    overflow: overlay;
+}
+.success-verify-menu-background .success {
+    font-size: 27px;
+    font-family: relway-light;
+}
+.success-verify-menu-background .success-success {
+    font-size: 39px;
+}
+.success-verify-menu-background .success-success-success {
+    font-size: 14px;
+}
+.doctor-menu-background .doctor-form .second-col .submit {
+    width: 100%;
+    /* margin-left: 126px; */
+    margin-right: -20px;
+    font-size: 8px;
+    border-radius: 5px;
+}
+.doctor-menu-background .doctor-form .no-padding{
+    padding:0px;
+}
+.doctor-menu-background .doctor-form .radio-label {
+    font-size: 10px;
+    padding: 0px;
+}
+.doctor-menu-background .doctor-form .second-col .upload-info h4 {
+    font-size: 7px;
+}
+.doctor-menu-background .register-doctor {
+    font-size: 20px;
+}
+.doctor-menu-background {
+    margin-top: -122%;
+    padding: 17px 10px;
+           height: 354px;
+}
+.doctor-menu-background .doctor-form .second-col .agree-check .agree {
+    width: 35%;
+    color: rgb(0, 182, 185);
+}
+}
